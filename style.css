@@ -4,10 +4,12 @@ body {
     font-family: Arial, sans-serif;
     user-select: none;
 }
+
 h1 {
     text-align: center;
     font-size: 48px;
 }
+
 input {
     border-radius: 10px;
     width: 600px;
@@ -15,15 +17,26 @@ input {
     font-size: 20px;
     border: 2px solid #ccc;
 }
+
 button {
     border-radius: 10px;
     width: 600px;
     height: 32px;
     font-size: 20px;
     color: rgb(0, 242, 255);
-    background-color: lightblue;
+    background-color: rgb(0, 110, 255);
     border: none;
 }
+
 button:hover {
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(2, 75, 169);
+}
+
+.card {
+    padding: 20px;
+    margin: auto;
+    border-radius: 12px;
+    background-color: white;
+    width: 800px;
+    height: 130px;
 }
